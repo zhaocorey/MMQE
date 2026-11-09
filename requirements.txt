@@ -1,0 +1,13 @@
+# Core (all stages)
+aiohttp>=3.9
+numpy>=1.24
+scipy>=1.10
+
+# Stage 3/4 (training & local inference)
+torch>=2.1
+transformers>=4.43
+accelerate>=0.30
+datasets>=2.19
+
+# Optional: high-throughput student inference for Stage 4
+# vllm>=0.5
